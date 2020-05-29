@@ -2,7 +2,7 @@
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/youldash.svg?style=social?style=plastic)](https://twitter.com/youldash)
 
-[ann]: assets/neural_network.png "Artificial Neural Network"
+[ANN]: assets/neural_network.png "Artificial Neural Network"
 
 ## License
 
@@ -19,3 +19,45 @@ The goal of this project is to build an [Artificial Neural Network (ANN)](https:
 The data comes from the [UCI Machine Learning database](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset).
 
 This project was developed in partial fulfillment of the requirements for Udacity's [Deep Learning Nanodegree](https://www.udacity.com/course/deep-learning-nanodegree--nd101) program.
+
+## Results
+
+### Prediction Losses
+
+![LOSSES](/assets/prediction-losses.png)
+
+### Predictions After Training
+
+![PREDICTIONS](/assets/predictions.png)
+
+## Installation
+
+For best the experience with managing dependencies, we strongly advise you to install [Anconda](https://docs.anaconda.com/anaconda/install/) or [Miniconda](https://docs.conda.io/projects/continuumio-conda/en/latest/user-guide/install/download.html).
+
+Create a virtual environment with `conda`:
+
+```
+conda create --name deep-learning python=3
+```
+
+Then, activate the environment:
+
+```
+conda activate deep-learning
+```
+
+Then, install the dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+You can also download/clone this repository and launch the notebook using the following command:
+
+```
+jupyter-notebook Your_first_neural_network.ipynb
+```
+
+## Usage
+
+Run all code cells in the `Your_first_neural_network.ipynb` notebook file. Also have a look at the file `my_answers.py` for details on how to implement the ANN from scratch.
